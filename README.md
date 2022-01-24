@@ -11,6 +11,5 @@ Our code is developed based on the the following approach presented in the publi
 @article{Banerjee:lk5048,
 author = "Banerjee, Soham and Liu, Chia-Hao and Jensen, Kirsten M. Ø. and Juhás, Pavol and Lee, Jennifer D. and Tofanelli, Marcus and Ackerson, Christopher J. and Murray, Christopher B. and Billinge, Simon J. L.",
 title = "{{Cluster-mining}: an approach for determining core structures of metallic nanoparticles from atomic pair distribution function data}",
-year = "2020",
-},}
+year = "2020",},}
 ```
