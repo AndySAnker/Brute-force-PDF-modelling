@@ -2,6 +2,8 @@
 
 This script provides a brute-force modelling approach to predict the Mono-Metallic Nanoparticle (MMNP) from a Pair Distribution Function (PDF).
 
+![alt text](images/bruteforce-figure.png "bruteforce-figure")
+
 Currently the script is limited to MMNPs with up to 200 atoms of the 7 different structure types: Cubic (sc), body-centered cubic (bcc), face-centered cubic (fcc), hexagonal closed packed (hcp), decahedral, icosahedral and octahedral.
 
 
