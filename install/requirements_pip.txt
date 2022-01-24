@@ -1,0 +1,7 @@
+glob
+numpy
+pandas
+scipy
+multiprocess
+ase
+carbontracker
