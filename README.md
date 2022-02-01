@@ -9,16 +9,13 @@ This script provides a brute-force modelling approach to predict the Mono-Metall
 Currently the script is limited to MMNPs with up to 200 atoms of the 7 different structure types: Cubic (sc), body-centered cubic (bcc), face-centered cubic (fcc), hexagonal closed packed (hcp), decahedral, icosahedral and octahedral.
 
 1. [DeepStruc](#deepstruc)
-2. [Getting started (with Colab)](#getting-started-with-colab)
-3. [Getting started (own computer)](#getting-started-own-computer)
-3.1. [Install requirements](#install-requirements)
-3.2. [Train model](#train-model)
-3.3. [Predict](#predict)
-4. [Simulate data](#simulate-data)
-5. [Author](#author)
-6. [Cite](#cite)
-7. [Acknowledgments](#Acknowledgments)
-8. [License](#license)  
+2. [Getting started (own computer)](#getting-started-own-computer)
+   1. [Install requirements](#install-requirements)
+   2. [Predict with brute-force approach](#predict-with-brute-force-approach)
+3. [Author](#author)
+4. [Cite](#cite)
+5. [Acknowledgments](#Acknowledgments)
+6. [License](#license)  
 
 # Getting started (own computer)
 Follow these step if you want to use the brute-force modelling approach locally on your own computer.
