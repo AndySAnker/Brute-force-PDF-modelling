@@ -8,7 +8,7 @@ This script provides a brute-force modelling approach to predict the Mono-Metall
 
 Currently the script is limited to MMNPs with up to 200 atoms of the 7 different structure types: Cubic (sc), body-centered cubic (bcc), face-centered cubic (fcc), hexagonal closed packed (hcp), decahedral, icosahedral and octahedral.
 
-1. [DeepStruc](#deepstruc)
+1. [Brute-force-PDF-modelling](#brute-force-pdf-modelling)
 2. [Getting started (own computer)](#getting-started-own-computer)
    1. [Install requirements](#install-requirements)
    2. [Predict with brute-force approach](#predict-with-brute-force-approach)
