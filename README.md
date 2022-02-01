@@ -27,10 +27,11 @@ Follow these step if you want to use the brute-force modelling approach locally 
 See the [install](/install) folder. 
 
 ## Predict with brute-force approach
-Simply run:
+Simply open the script with:
 ```
-python XXX.py
+jupyter notebook BruteForce.ipynb
 ```
+And follow the instructions.
 
 # Authors
 __Andy S. Anker__<sup>1</sup>   
