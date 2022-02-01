@@ -26,51 +26,11 @@ Follow these step if you want to use the brute-force modelling approach locally 
 ## Install requirements
 See the [install](/install) folder. 
 
-## Train model
-To train your own DeepStruc model simply run:
+## Predict with brute-force approach
+Simply run:
 ```
-python train.py
+python XXX.py
 ```
-A list of possible arguments or run the '--help' argument for additional information.  
-If you are intersted in changing the architecture of the model go to __train.py__ and change the _model_arch_ dictionary. 
- 
-| Arg | Description | Example |  
-| --- | --- |  --- |  
-| `-h` or `--help` | Prints help message. |    
-| `-d` or `--data_dir` | Directory containing graph training, validation and test data. __str__| `-d ./data/graphs`  |  
-| `-s` or `--save_dir` | Directory where models will be saved. This is also used for loading a learner. __str__ | `-s bst_model`  |   
-| `-r` or `--resume_model` | If 'True' the save_dir model is loaded and training is continued. __bool__| `-r True`  |
-| `-e` or `--epochs` | Number of maximum epochs. __int__| `-e 100`  |  
-| `-b` or `--batch_size` | Number of graphs in each batch. __int__| `-b 20`  |  
-| `-l` or `--learning_rate` | Learning rate. __float__| `-l 1e-4`  |  
-| `-B` or `--beta` | Initial beta value for scaling KLD. __float__| `-B 0.1`  |  
-| `-i` or `--beta_increase` | Increments of beta when the threshold is met. __float__| `-i 0.1`  |  
-| `-x` or `--beta_max` | Highst value beta can increase to. __float__| `-x 5`  |  
-| `-t` or `--reconstruction_th` | Reconstruction threshold required before beta is increased. __float__| `-t 0.001`  |  
-| `-n` or `--num_files` | Total number of files loaded. Files will be split 60/20/20. If 'None' then all files are loaded. __int__| `-n 500`  |  
-| `-c` or `--compute` | Train model on CPU or GPU. Choices: 'cpu', 'gpu16', 'gpu32' and 'gpu64'. __str__| `-c gpu32`  |  
-| `-L` or `--latent_dim` | Number of latent space dimensions. __int__| `-L 3`  |  
-
-## Predict
-To predict a MMNP using DeepStruc or your own model on a PDF:
-```
-python predict.py
-```
-A list of possible arguments or run the '--help' argument for additional information.  
- 
-| Arg | Description | Example |  
-| --- | --- |  --- |  
-| `-h` or `--help` | Prints help message. |    
-| `-d` or `--data` | Path to data or data directory. If pointing to data directory all datasets must have same format. __str__| `-d data/experimental_PDFs/JQ_S1.gr`  |  
-| `-m` or `--model` | Path to model. If 'None' GUI will open. __str__ | `-m ./models/DeepStruc`  |   
-| `-n` or `--num_samples` | Number of samples/structures generated for each unique PDF. __int__| `-n 10`  |
-| `-s` or `--sigma` | Sample to '-s' sigma in the normal distribution. __float__| `-s 7`  |  
-| `-p` or `--plot_sampling` | Plots sampled structures on top of DeepStruc training data. Model must be DeepStruc. __bool__| `-p True`  |  
-| `-g` or `--save_path` | Path to directory where predictions will be saved. __bool__| `-g ./best_preds`  |  
-
-
-## Simulate data
-See the [data](/data) folder. 
 
 # Authors
 __Andy S. Anker__<sup>1</sup>   
