@@ -66,7 +66,7 @@ year = {2020}}
 ```
 
 # License
-This project is licensed under the Apache License Version 2.0, January 2004 - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the Apache License Version 2.0, January 2004 - see the [LICENSE](LICENSE) file for details.
 
 
 
