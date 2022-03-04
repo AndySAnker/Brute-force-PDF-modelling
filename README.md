@@ -2,7 +2,7 @@
 
 # Brute-force-PDF-modelling
 
-This script provides a brute-force modelling approach to predict the Mono-Metallic Nanoparticle (MMNP) from a Pair Distribution Function (PDF).
+This script provides a brute-force modelling approach to predict the mono-metallic nanoparticle (MMNP) from a Pair Distribution Function (PDF).
 
 ![alt text](images/bruteforce-figure.png "bruteforce-figure")
 
