@@ -1,5 +1,4 @@
-[ChemRxiv](https://chemrxiv.org/engage/chemrxiv/article-details/6221f17357a9d20c9a729ecb)  |  [Paper] XXX
-
+[ChemRxiv](https://chemrxiv.org/engage/chemrxiv/article-details/6221f17357a9d20c9a729ecb)  |  [Paper](https://pubs.rsc.org/en/content/articlelanding/2023/dd/d2dd00086e)
 # Brute-force-PDF-modelling
 
 This script provides a brute-force modelling approach to predict the mono-metallic nanoparticle (MMNP) from a Pair Distribution Function (PDF).
